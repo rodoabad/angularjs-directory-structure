@@ -27,7 +27,7 @@ import angular from 'angular';
 
 import config from './config.js';
 import template from './index.html';
-import controller from ./controller.js';
+import controller from './controller.js';
 
 const directive = {
   restrict: 'E',
@@ -68,6 +68,8 @@ export default [
 
 ```
 
+## Sample structure
+
 ```
 src/
 ├──main/
@@ -94,6 +96,7 @@ src/
    │  ├──user/
    │     │
    │     ├──config.js
+   │     ├──controller.js
    │     ├──index.js
    │
    ├──main.js
